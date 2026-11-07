@@ -1,0 +1,7 @@
+# Test and lint dependencies (`make check`). The agent service has its own
+# list in agent/requirements.txt. ruff is pinned to the version CI uses, since
+# newer releases enable rules this codebase has not adopted.
+pytest>=8.0
+openpyxl>=3.1
+mcp>=1.27,<2
+ruff==0.8.2

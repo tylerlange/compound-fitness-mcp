@@ -1,0 +1,25 @@
+# Secrets and personal data
+.env
+.env.*
+!.env.example
+*.db
+*.db-wal
+*.db-shm
+*.log
+*.jsonl
+data/
+demo-data/
+inbox/
+*-data/
+# Personal identifier denylist for scripts/scan_identifiers.py. Never commit.
+.identifiers.local
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+.venv/

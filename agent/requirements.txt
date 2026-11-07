@@ -1,0 +1,6 @@
+# Runtime dependencies for the agent service. Bump deliberately.
+pydantic-ai==2.25.0
+mcp==1.29.0
+fastapi==0.141.1
+uvicorn[standard]==0.52.1
+httpx==0.28.1

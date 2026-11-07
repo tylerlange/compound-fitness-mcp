@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Entry point. Pins the repo onto PYTHONPATH so there is nothing to install.
+set -euo pipefail
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+PYTHONPATH="$ROOT${PYTHONPATH:+:$PYTHONPATH}" exec python3 -m strength_coach.cli "$@"

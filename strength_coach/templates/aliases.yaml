@@ -1,0 +1,17 @@
+# Exercise aliases for this instance, merged over the defaults in
+# strength_coach/seeds.py. Your entries win.
+#
+# Format: one mapping per line, `Name your app exports: Canonical name`.
+# Quote a name that contains a colon: "Squat: Paused": Paused Squat
+# Only flat lines and # comments are allowed; anything else is an error that
+# names the line (`bin/coach check` reports it).
+#
+# Use this when two apps (or two eras of one app) name the same lift
+# differently, so its history is one trend instead of two. Map to the canonical
+# name directly, never to another alias. Merging two genuinely different
+# variations is your call; nothing is merged unless you list it.
+#
+# Examples (delete the leading # to enable):
+# Back Squat (Barbell): Squat
+# Dumbbell Incline Press: Incline Dumbbell Press
+# Cable Triceps Pushdown: Triceps Pushdown
