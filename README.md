@@ -1,7 +1,10 @@
 # fitness-coach-agent
 
-A fitness coach you run yourself: deterministic adapters merge your lifting, cardio and recovery exports into one SQLite store, and an MCP tool server lets any agent coach from it without inventing numbers.
-The repo is the engine plus templates; your data and profile live in a directory outside it.
+Workout data is siloed across lifting, cardio and wearable apps, so you can't ask a question that spans them.
+fitness-coach-agent merges it into one history that an AI coach answers from, using your real numbers instead of guessing.
+
+It's built so the AI can be wrong without doing damage. Deterministic adapters write the data, with no model in that path. An MCP tool server lets any agent query it, and destructive changes need a code-enforced preview and one-time token first.
+The repo is the engine plus templates. Your data and profile live in a directory outside it.
 
 ## Quickstart
 
