@@ -1,13 +1,15 @@
-# fitness-coach-agent
+# Compound
 
 ## What it is
 
-Your lifts live in one app and your runs in another. fitness-coach-agent imports your saved workouts from each and builds one database of your exercise history, so you can point your AI at a single source of truth for feedback and analysis.
+Your lifts live in one app and your runs in another. Compound merges your saved workouts from each into one standardized history, then serves it to your AI over MCP, so it has a single source of truth for feedback and analysis.
 
-It runs on your own machine, and your history lives in one local file.
+Ask things like "How has my squat moved this year?" or "Am I training more consistently than last quarter?" and get answers from your own numbers.
+
+It works from the exports you download, not live connections to your apps. Your history lives in one local file.
 
 **Features.**
-- Imports MacroFactor, StrongLifts, Liftin, Liftosaur and AllTrails (GPX).
+- Imports MacroFactor Workouts, StrongLifts, Liftin, Liftosaur and AllTrails (GPX).
 - Matches the same exercise across apps.
 - Works with any OpenAI-compatible or MCP client.
 
