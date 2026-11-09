@@ -14,7 +14,7 @@ the live service before trusting it.
 
 ```text
 You are adding one data source adapter to the repository in the current directory
-(fitness-coach-agent). Read these first and follow them exactly:
+(Compound). Read these first and follow them exactly:
 - docs/ADAPTERS.md (the adapter contract: input, canonical output, idempotency keys, failure behavior, credentials, required tests)
 - strength_coach/models.py (the canonical models: ParsedImport, NormalizedSession, NormalizedSet)
 - strength_coach/adapters/liftin_csv.py and strength_coach/adapters/base.py (reference adapter and unit helpers)
@@ -49,7 +49,7 @@ Acceptance: make check passes, and a second import of the same fixture changes n
 
 ```text
 You are adding one data source adapter to the repository in the current directory
-(fitness-coach-agent). Read these first and follow them exactly:
+(Compound). Read these first and follow them exactly:
 - docs/ADAPTERS.md (the adapter contract: input, canonical output, idempotency keys, failure behavior, credentials, required tests)
 - strength_coach/models.py (the canonical models: ParsedImport, NormalizedSession, NormalizedSet)
 - strength_coach/adapters/liftin_csv.py and strength_coach/adapters/base.py (reference adapter and unit helpers)
@@ -83,7 +83,7 @@ Acceptance: make check passes, and a second import of the same fixture changes n
 
 ```text
 You are adding one data source adapter to the repository in the current directory
-(fitness-coach-agent). Read these first and follow them exactly:
+(Compound). Read these first and follow them exactly:
 - docs/ADAPTERS.md (the adapter contract: input, canonical output, idempotency keys, failure behavior, credentials, required tests)
 - strength_coach/models.py (the canonical models: ParsedImport, NormalizedSession, NormalizedSet)
 - strength_coach/adapters/liftin_csv.py and strength_coach/adapters/base.py (reference adapter and unit helpers)
@@ -115,7 +115,7 @@ Acceptance: make check passes, and a second import of the same fixture changes n
 
 ```text
 You are adding one data source adapter to the repository in the current directory
-(fitness-coach-agent). Read these first and follow them exactly:
+(Compound). Read these first and follow them exactly:
 - docs/ADAPTERS.md (the adapter contract: input, canonical output, idempotency keys, failure behavior, credentials, required tests)
 - strength_coach/models.py (the canonical models: ParsedImport, NormalizedSession, NormalizedSet)
 - strength_coach/adapters/liftin_csv.py and strength_coach/adapters/base.py (reference adapter and unit helpers)
@@ -148,7 +148,7 @@ Acceptance: make check passes, and a second import of the same fixture changes n
 
 ```text
 You are adding one data source adapter to the repository in the current directory
-(fitness-coach-agent). Read these first and follow them exactly:
+(Compound). Read these first and follow them exactly:
 - docs/ADAPTERS.md (the adapter contract: input, canonical output, idempotency keys, failure behavior, credentials, required tests)
 - strength_coach/models.py (the canonical models: ParsedImport, NormalizedSession, NormalizedSet)
 - strength_coach/adapters/liftin_csv.py and strength_coach/adapters/base.py (reference adapter and unit helpers)
@@ -183,7 +183,7 @@ Acceptance: make check passes, and a second import of the same fixture changes n
 
 ```text
 You are adding one data source adapter to the repository in the current directory
-(fitness-coach-agent). Read these first and follow them exactly:
+(Compound). Read these first and follow them exactly:
 - docs/ADAPTERS.md (the adapter contract: input, canonical output, idempotency keys, failure behavior, credentials, required tests)
 - strength_coach/models.py (the canonical models: ParsedImport, NormalizedSession, NormalizedSet)
 - strength_coach/adapters/liftin_csv.py and strength_coach/adapters/base.py (reference adapter and unit helpers)

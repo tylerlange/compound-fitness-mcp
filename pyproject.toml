@@ -3,9 +3,9 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "fitness-coach-agent"
+name = "compound-fitness-mcp"
 version = "0.1.0"
-description = "Fitness coaching agent over a source-agnostic training-data store, with an MCP tool server"
+description = "Merges your workout exports from lifting and cardio apps into one standardized history, and serves it to your AI over MCP."
 requires-python = ">=3.10"
 authors = [{ name = "Tyler Lange" }]
 license = { text = "MIT" }

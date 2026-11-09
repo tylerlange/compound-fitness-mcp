@@ -1,6 +1,6 @@
 # Agent setup guide
 
-For a coding agent setting up a fitness-coach-agent instance for a new user.
+For a coding agent setting up a Compound instance for a new user.
 Follow the steps in order. Do not read the source code unless a step fails
 and its error message does not say how to fix it; if you had to, tell the user
 which step so the guide can be fixed.
